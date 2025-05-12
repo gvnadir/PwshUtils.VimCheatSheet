@@ -100,7 +100,7 @@ Get-UtilVimCheatSheet | Where-Object { $_.Section -eq 'Edit' }
 
 ## 💡 Why I Built This
 
-I often found myself Googling Vim commands I already knew, just forgotten the syntax. This module gives me instant recall — directly in PowerShell.
+I often found myself searching Vim commands I already knew, just forgotten the syntax. This module gives me instant recall — directly in PowerShell.
 
 ---
 
