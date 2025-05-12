@@ -24,7 +24,27 @@ The CSV includes sections like:
 
 ## 🚀 Usage
 
-### 1. Import the module
+### 1. Clone and import the module
+
+First, clone the repository (you can change the path if you use a different folder):
+
+```powershell
+git clone https://github.com/tuo-utente/PwshUtils.VimCheatSheet "$HOME\projects\PwshUtils.VimCheatSheet"
+```
+
+Make sure the path is included in your PowerShell module search path:
+
+```powershell
+$env:PSModulePath += ";$HOME\projects"
+```
+
+To make this change permanent, add that line to your PowerShell profile:
+
+```powershell
+notepad $PROFILE
+```
+
+Then import the module:
 
 ```powershell
 Import-Module PwshUtils.VimCheatSheet
