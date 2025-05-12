@@ -86,4 +86,4 @@ I often found myself Googling Vim commands I already knew, just forgotten the sy
 
 ## 📜 License
 
-MIT License — do what you want, just don’t blame me 😉
+MIT License — free to use, modify, and share 😎.
